@@ -1,11 +1,21 @@
+html {
+background-color: oldlace;
+}
 h1 {
-    color: Green;
+    color: blue;
     text-transform: uppercase;
-    text-align: center;
+    text-align: justify;
+    justify-content: center;
 }
 h2 {
+    color: slategrey;
     text-transform: uppercase;
-}
+    text-align: center;
+    justify-content: center;
+
+}   
 p {
     text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
 }
