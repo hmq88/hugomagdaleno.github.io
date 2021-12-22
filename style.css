@@ -1,5 +1,7 @@
 html{
     background-color: antiquewhite;
+    text-align: justify;
+    text-align: center;
 }
 h1 {
     text-transform: uppercase;
@@ -8,12 +10,37 @@ h1 {
 h2 {
     text-transform: uppercase;
 }
+h3 {
+    text-transform: uppercase;
+    text-align: center ;
+    
+}
 p {
+    text-transform: uppercase;
+    
+}
+
+ol {
+    text-transform: uppercase;
+    
+    text-align: center;
+    
+}
+article {
+    padding-left: 3rem; 
     text-transform: uppercase;
 }
 section {
-    padding-left: 47rem;
-    text-align: justify;
-    justify-content: space-between;
-    
+    text-align: center;
 }
+.flex-container > div {
+    width: 30rem;
+    flex-direction: column;
+    color: rgb(75, 75, 212);
+    text-transform: uppercase;
+    display: flex;
+    background-color: #9dc9b6;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
