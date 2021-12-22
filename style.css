@@ -1,29 +1,19 @@
-html {
-background-color: oldlace;
+html{
+    background-color: antiquewhite;
 }
 h1 {
-    color: blue;
     text-transform: uppercase;
-    text-align: justify;
-    justify-content: center;
+    text-align: center;
 }
 h2 {
-    color: slategrey;
     text-transform: uppercase;
-    text-align: center;
-    justify-content: center;
-
-}   
+}
 p {
     text-transform: uppercase;
-    text-align: center;
-    justify-content: center;
 }
-li {
-
-    text-transform: uppercase;
-    text-align: justify;
-    justify-content: center;
-    padding: 1rem;
+section {
     padding-left: 47rem;
+    text-align: justify;
+    justify-content: space-between;
+    
 }
