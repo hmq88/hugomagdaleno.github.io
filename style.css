@@ -19,3 +19,11 @@ p {
     text-align: center;
     justify-content: center;
 }
+li {
+
+    text-transform: uppercase;
+    text-align: justify;
+    justify-content: center;
+    padding: 1rem;
+    padding-left: 47rem;
+}
