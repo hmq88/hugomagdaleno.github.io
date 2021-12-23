@@ -7,53 +7,50 @@ html{
 
 .experiencialaboral {
     display: flex;
-    align-items: center;
     background: #5DEAA8;
-    height: 700px;
-    width: 300px;
-    padding: 20%;
+    padding: 2rem;
     margin: 1rem;
 }
 .construven {
     display: flex;
     flex-direction: column;
     border-radius: 25%;
-    text-align: center;
+    text-align: justify;
     background: #adc5ba;
-    height: 300px;
-    width: 300px;
-    padding: .5rem;
-    margin: 1rem;
-    border-top-left-radius: 30%;
+    height: 250px;
+    width: 250px;
+    padding: 2rem;
+    margin: .5rem;
+    border-top-left-radius: 15%;
     border-top-right-radius: 30%;
-    border-bottom-right-radius: 30%;
-    border-bottom-left-radius: 60%;
+    border-bottom-right-radius: 15%;
+    border-bottom-left-radius: 30%;
 }
 .brisas{
     display: flex;
-    text-align: center;
+    text-align: justify;
     background: #adc5ba;
-    height: 300px;
-    width: 300px;
-    padding: .5rem;
-    margin: 1rem;
-    border-top-left-radius: 115%;
-    border-top-right-radius: 115%;
-    border-bottom-right-radius: 115%;
-    border-bottom-left-radius: 115%;
+    height: 250px;
+    width: 250px;
+    padding: 2rem;
+    margin: .5rem;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
+    border-bottom-left-radius: 15%;
 }
 .hcali{
     display: flex;
     text-align: justify;
     background: #adc5ba;
     height: 250px;
-    width: 200px;
-    padding: .5rem;
-    margin: 1rem;
+    width: 250px;
+    padding: 2rem;
+    margin: .5rem;
     border-top-left-radius: 30%;
-    border-top-right-radius: 30%;
+    border-top-right-radius: 15%;
     border-bottom-right-radius: 30%;
-    border-bottom-left-radius: 30%;
+    border-bottom-left-radius: 15%;
 }
 h3{
     text-transform: uppercase;
