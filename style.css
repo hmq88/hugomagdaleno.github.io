@@ -1,10 +1,11 @@
 html{
     
     background-color: antiquewhite;
-    text-align: justify;
-    text-align: center;
+    height: 1200px;
+    width: 1200px;
+    margin: 1px;
 }
-h1 {
+/* h1 {
     text-transform: uppercase;
     text-align: center;
 }
@@ -24,16 +25,19 @@ p {
     flex: auto;
     text-align: center;
     
+} */
+.experiencialaboral {
+    
+    background: #5DEAA8;
+    height: 110px;
+    width: 500px;
 }
-
 ol {
     text-transform: uppercase;
     
     text-align: center;
     
 }
-article {
-    padding-left: 3rem; 
     text-transform: uppercase;
 }
 section {
