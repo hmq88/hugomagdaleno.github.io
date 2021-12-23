@@ -33,6 +33,8 @@ p {
     background: #5DEAA8;
     height: 110px;
     width: 500px;
+    padding: 20%;
+    margin: 40px;
 }
 ol {
     text-transform: uppercase;
