@@ -1,5 +1,6 @@
 html{
-    background-color: #E3F2D8;
+    
+    background-color: antiquewhite;
     text-align: justify;
     text-align: center;
 }
@@ -7,16 +8,21 @@ h1 {
     text-transform: uppercase;
     text-align: center;
 }
-h2 {
+h2, h3 {
     text-transform: uppercase;
 }
-h3 {
-    text-transform: uppercase;
-    text-align: center ;
-    
+.formacion{
+ 
+    flex-basis: auto;
+    text-align: center;
 }
+ dt  {
+    text-transform: uppercase;
+}  
 p {
     text-transform: uppercase;
+    flex: auto;
+    text-align: center;
     
 }
 
