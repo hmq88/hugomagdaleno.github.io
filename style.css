@@ -3,7 +3,7 @@ html {
     box-sizing: border-box;
     min-height: 100%;
     scroll-snap-type: y mandatory;
-    background-color: antiquewhite;
+    background-color: #faebd7;
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -14,7 +14,7 @@ html {
     margin: 0 auto;
     display: flex;
     padding: 1%;
- 
+    background: rgb(192, 180, 165);
     align-items: center;
     
 }
@@ -26,10 +26,28 @@ html {
     margin: 0.2em;
     padding: .5%;
     justify-content: space-between;
-    background: rgba(162, 189, 199, 0.356);
+    background: rgba(168, 199, 162, 0.356);
     border-radius: 25%;
+}
+.formacion {
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
     
+}
+dl {
+    text-transform: uppercase;
+    text-align: center;
+}
+dd {
 
+    color: #faebd7;
+}
+dl :hover {
+    color: black;
+    background: chartreuse;
+    text-transform: uppercase;
+    zoom: 150%;
 }
 /*
 .construven {
@@ -58,6 +76,10 @@ html {
     border-bottom-right-radius: 15%;
     border-bottom-left-radius: 15%;
 } */
+
+h1 {
+    text-transform: uppercase;
+}
 h2{
     display: block;
     text-align: center;
