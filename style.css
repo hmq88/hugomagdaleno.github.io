@@ -1,24 +1,23 @@
 html{
     
     background-color: antiquewhite;
-    padding: 2rem;
-    margin: 1rem;
+    padding: auto;
+    margin: .1rem;
 }
 
-.experiencialaboral {
+ .experiencialaboral {
+    align-items: center;    
     display: flex;
-    background: #5DEAA8;
-    padding: 2rem;
-    margin: 1rem;
-}
+    background: #498fa057;
+  
+}/*
 .construven {
     display: flex;
     flex-direction: column;
     border-radius: 25%;
     text-align: justify;
     background: #adc5ba;
-    height: 250px;
-    width: 250px;
+   
     padding: 2rem;
     margin: .5rem;
     border-top-left-radius: 15%;
@@ -30,37 +29,96 @@ html{
     display: flex;
     text-align: justify;
     background: #adc5ba;
-    height: 250px;
-    width: 250px;
+    
     padding: 2rem;
     margin: .5rem;
     border-top-left-radius: 15%;
     border-top-right-radius: 15%;
     border-bottom-right-radius: 15%;
     border-bottom-left-radius: 15%;
-}
-.hcali{
-    display: flex;
-    text-align: justify;
-    background: #adc5ba;
-    height: 250px;
-    width: 250px;
-    padding: 2rem;
-    margin: .5rem;
-    border-top-left-radius: 30%;
-    border-top-right-radius: 15%;
-    border-bottom-right-radius: 30%;
-    border-bottom-left-radius: 15%;
+} */
+h2{
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    text-size-adjust: flex;
+    color: goldenrod ;
 }
 h3{
-    text-transform: uppercase;
-    color: antiquewhite;
-}
-/* ol {
-    text-transform: uppercase;
-    
+    display: block;
     text-align: center;
-    
+    text-transform: uppercase;
+    text-size-adjust: flex;
+    color: rgb(59, 65, 114);
+}
+@media (min-widt: 768px) {
+    .experiencialaboral {
+        display: flex;
+        gap: 5rem;
+        
+    }
+
+
+    @media (min-widt: 768px) {
+        .hcali{
+            display: flex;
+            gap: 2rem;
+            text-align: justify;
+            text-size-adjust: flex;
+            background: #adc5ba;
+            padding: 2rem;
+            margin: .5rem;
+            border-top-left-radius: 30%;
+            border-top-right-radius: 15%;
+            border-bottom-right-radius: 30%;
+            border-bottom-left-radius: 15%;
+    }
+}
+    @media (min-widt: 768px) {
+        .construven{
+            display: flex;
+            text-align: justify;
+            background: #adc5ba;
+            text-size-adjust: flex;
+            padding: 2rem;
+            margin: .5rem;
+            border-top-left-radius: 30%;
+            border-top-right-radius: 15%;
+            border-bottom-right-radius: 30%;
+            border-bottom-left-radius: 15%;
+    }
+}
+    @media (min-widt: 768px) {
+        .brisas{
+            display: flex;
+            gap: 2rem;
+            text-align: justify;
+            background: #adc5ba;
+            text-size-adjust: flex;
+            padding: 2rem;
+            margin: .5rem;
+            border-top-left-radius: 30%;
+            border-top-right-radius: 15%;
+            border-bottom-right-radius: 30%;
+            border-bottom-left-radius: 15%;
+    }
+}
+    @media (min-widt: 480px) {
+        .hcali{
+            display: flex;
+            gap: 2rem;
+            text-align: justify;
+            text-size-adjust: flex;
+            background: #dbe6e1;
+            padding: 2rem;
+            margin: .5rem;
+            border-top-left-radius: 30%;
+            border-top-right-radius: 15%;
+            border-bottom-right-radius: 30%;
+            border-bottom-left-radius: 15%;
+        
+    }
+}    
 }
 
 https://devcode.la/tutoriales/modelo-caja-css/ */
