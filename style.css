@@ -4,6 +4,7 @@ html {
     min-height: 100%;
     scroll-snap-type: y mandatory;
     background-color: #faebd7;
+    
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -30,25 +31,30 @@ html {
     border-radius: 25%;
 }
 .formacion {
-    text-transform: uppercase;
-    text-align: center;
-    justify-content: center;
+    max-width: 1200px;
+    margin:  auto;
+    margin-top: 1em;
+    display: block;
+    align-content: center;
+    justify-content: space-between;
+    
+    
     
 }
-dl {
+
+dt {
+    
+    text-size-adjust: ;
+    display: block;
+    padding: 5%;
+    margin: 30%;
     text-transform: uppercase;
     text-align: center;
-}
-dd {
+    background-color: rgba(221, 157, 196, 0.897);
+    border-radius: 90%;
 
-    color: #faebd7;
 }
-dl :hover {
-    color: black;
-    background: chartreuse;
-    text-transform: uppercase;
-    zoom: 150%;
-}
+
 /*
 .construven {
     display: flex;
@@ -84,7 +90,6 @@ h2{
     display: block;
     text-align: center;
     text-transform: uppercase;
-    text-size-adjust: flex;
     color: goldenrod ;
 }
 h3{
@@ -123,6 +128,7 @@ h3{
             border-bottom-right-radius: 30%;
             border-bottom-left-radius: 15%; */
  
+
 
 
 https://devcode.la/tutoriales/modelo-caja-css/ */
