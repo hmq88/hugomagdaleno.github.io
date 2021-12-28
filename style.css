@@ -99,7 +99,9 @@ h3{
     text-size-adjust: flex;
     color: rgb(86, 135, 150);
 }
-
+P {
+    text-align: right;
+}
     /* @media (min-widt: 768px) {
         .construven{
             display: flex;
