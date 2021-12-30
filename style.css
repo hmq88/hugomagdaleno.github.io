@@ -1,8 +1,15 @@
+{
+color: #7983cb;
+color: #d6a54c;
+color: #cb9673;
+color: #cdf9ef; 
+color: #f1c921;
+}
 html {
     box-sizing: border-box;
     min-height: 100%;
     scroll-snap-type: y mandatory;
-    background-color: #faebd7;
+    background-color: #363B25;
     
 }
 *, *:before, *:after {
@@ -18,7 +25,7 @@ html {
 .empresa {
     margin: .2em;
     padding: .5%;
-    background: rgba(168, 199, 162, 0.356);
+    background: #717A4D;
     border-radius: 15%;
 }
 .empresa p {
@@ -41,29 +48,31 @@ dt {
     margin: 1%;
     text-transform: uppercase;
     text-align: center;
-    background-color: rgba(221, 157, 196, 0.897);
+    background-color: #E6FA9D;
     border-radius: 90%;
 }
 dd {
     text-align: right;
+    color: #E6FA9D;
 }
 
 h1 {
     text-transform: uppercase;
     text-align: center;
+    color: #CEE047;
 }
 h2{
     display: block;
     text-align: center;
     text-transform: uppercase;
-    color: goldenrod ;
+    color: #cb9673 ;
 }
 h3{
     display: block;
     text-align: center;
     text-transform: uppercase;
     text-size-adjust: flex;
-    color: rgb(86, 135, 150);
+    color: #cdf9ef;
 }
 header{
 	background-image:url(http://pngimg.com/uploads/green_leaves/green_leaves_PNG3673.png)
@@ -73,8 +82,5 @@ header{
 header P {
     text-align: right;
     width: 58%;
+    color: #CEE047;
 }
-
-
-
-https://devcode.la/tutoriales/modelo-caja-css/ */
