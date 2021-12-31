@@ -58,8 +58,11 @@ dd {
 }
 
 h1 {
+    padding: .5em;
+    text-align: center;
     text-transform: uppercase;
     text-align: center;
+    
 }
 h2{
     display: block;
@@ -89,63 +92,4 @@ header{
 header P {
     text-align: right;
     width: 58%;
-    color: #CEE047;
 }
-
-/*
-.construven {
-    display: flex;
-    flex-direction: column;
-    border-radius: 25%;
-    text-align: justify;
-    background: #adc5ba;
-   
-    padding: 2rem;
-    margin: .5rem;
-    border-top-left-radius: 15%;
-    border-top-right-radius: 30%;
-    border-bottom-right-radius: 15%;
-    border-bottom-left-radius: 30%;
-}
-.brisas{
-    display: flex;
-    text-align: justify;
-    background: #adc5ba;
-    
-    padding: 2rem;
-    margin: .5rem;
-    border-top-left-radius: 15%;
-    border-top-right-radius: 15%;
-    border-bottom-right-radius: 15%;
-    border-bottom-left-radius: 15%;
-} */
-    /* @media (min-widt: 768px) {
-        .construven{
-            display: flex;
-            text-align: justify;
-            background: #adc5ba;
-            text-size-adjust: flex;
-            padding: 2rem;
-            margin: .5rem;
-            border-top-left-radius: 30%;
-            border-top-right-radius: 15%;
-            border-bottom-right-radius: 30%;
-            border-bottom-left-radius: 15%;
-    }
-}
-    @media (min-widt: 768px) {
-        .brisas{
-            display: flex;
-            gap: 2rem;
-            text-align: justify;
-            background: #adc5ba;
-            text-size-adjust: flex;
-            padding: 2rem;
-            margin: .5rem;
-            border-top-left-radius: 30%;
-            border-top-right-radius: 15%;
-            border-bottom-right-radius: 30%;
-            border-bottom-left-radius: 15%; */
- 
-
-
