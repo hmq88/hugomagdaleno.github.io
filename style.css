@@ -1,3 +1,62 @@
+{
+color: #7983cb;
+color: #d6a54c;
+color: #cb9673;
+color: #cdf9ef; 
+color: #f1c921;
+}
+html {
+    box-sizing: border-box;
+    min-height: 100%;
+    scroll-snap-type: y mandatory;
+    background-color: #363B25;
+    
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+ .experiencialaboral {
+    border-radius: 15%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    
+}
+.empresa {
+    margin: .2em;
+    padding: .5%;
+    background: #717A4D;
+    border-radius: 15%;
+}
+.empresa p {
+    text-transform: uppercase;
+    text-align: center;
+}
+.formacion { 
+    
+    max-width: 1200px;
+    margin:  auto;
+    display: block;
+    align-content: center;
+    justify-content: space-between; 
+}
+dl {
+    columns: 2;
+}
+dt {    
+    display: block;
+    padding: 5%;
+    margin: 1%;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #E6FA9D;
+    border-radius: 90%;
+}
+dd {
+    text-align: right;
+    color: #E6FA9D;
+}
+
 h1 {
     padding: 0em;
     margin: 0em;
