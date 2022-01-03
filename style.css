@@ -1,15 +1,9 @@
-{
-    color: #7983cb;
-    color: #d6a54c;
-    color: #cb9673;
-    color: #cdf9ef; 
-    color: #f1c921;
-    }
+
     html {
         box-sizing: border-box;
         min-height: 100%;
         scroll-snap-type: y mandatory;
-        background-color: #363B25;
+        background-color: #000000;
         
     }
     *, *:before, *:after {
@@ -63,6 +57,7 @@
         text-align: center;
         text-transform: uppercase;
         text-align: center;
+        color: #cb9673;
         
     }
     h2{
@@ -84,15 +79,15 @@
         text-align: center;
         color: #E6FA9D;
     }
-    header{
-        background-image: url(https://www.pikpng.com/pngl/m/341-3413599_free-png-copos-de-nieve-navidad-png-image.png);
-        background-size: 4.8em;
-    }   
+    /* header{
+     
+    }    */
     
     
     header P {
         text-align: right;
         width: 58%;
+        color: white;
     }
     *{
         margin: 0;
@@ -130,7 +125,7 @@
         line-height: 50px;
         border-radius: 50%;
         font-size: 20px;
-        color: #fff;
+        color: rgb(100, 230, 89);
         cursor: pointer;
         /*background: linear-gradient(-135deg, #c850c0, #4158d0);*/
         /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
@@ -139,7 +134,7 @@
         transition: all 0.3s ease-in-out;
       }
       #active:checked ~ .menu-btn{
-        color: #fff;
+        color: rgb(214, 49, 49);
       }
       #active:checked ~ .menu-btn i:before{
         content: "\f00d";
@@ -221,3 +216,61 @@
         }
       }
       
+    
+    /*
+    .construven {
+        display: flex;
+        flex-direction: column;
+        border-radius: 25%;
+        text-align: justify;
+        background: #adc5ba;
+       
+        padding: 2rem;
+        margin: .5rem;
+        border-top-left-radius: 15%;
+        border-top-right-radius: 30%;
+        border-bottom-right-radius: 15%;
+        border-bottom-left-radius: 30%;
+    }
+    .brisas{
+        display: flex;
+        text-align: justify;
+        background: #adc5ba;
+        
+        padding: 2rem;
+        margin: .5rem;
+        border-top-left-radius: 15%;
+        border-top-right-radius: 15%;
+        border-bottom-right-radius: 15%;
+        border-bottom-left-radius: 15%;
+    } */
+        /* @media (min-widt: 768px) {
+            .construven{
+                display: flex;
+                text-align: justify;
+                background: #adc5ba;
+                text-size-adjust: flex;
+                padding: 2rem;
+                margin: .5rem;
+                border-top-left-radius: 30%;
+                border-top-right-radius: 15%;
+                border-bottom-right-radius: 30%;
+                border-bottom-left-radius: 15%;
+        }
+    }
+        @media (min-widt: 768px) {
+            .brisas{
+                display: flex;
+                gap: 2rem;
+                text-align: justify;
+                background: #adc5ba;
+                text-size-adjust: flex;
+                padding: 2rem;
+                margin: .5rem;
+                border-top-left-radius: 30%;
+                border-top-right-radius: 15%;
+                border-bottom-right-radius: 30%;
+                border-bottom-left-radius: 15%; */
+     
+    
+    
