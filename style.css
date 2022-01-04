@@ -1,9 +1,10 @@
 
+    
     html {
         box-sizing: border-box;
         min-height: 100%;
         scroll-snap-type: y mandatory;
-        background-color: #000000;
+        background-color: #444343;
         
     }
     *, *:before, *:after {
