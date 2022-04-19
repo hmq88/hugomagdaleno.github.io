@@ -4,30 +4,35 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	background: linear-gradient(to bottom, #f5cd7e44 0%, #9ed3a5 100%);
+	background: linear-gradient(to bottom, #f5cd7e44 0%, #6ca874 100%);
 }
+
+
 
 body {
 
-	
+	padding: 10%;
 	font-family: arial, helvetica, sans-serif;
 	font-size: 16px;
+	text-align: center;
 }
 
 .wrap {
-
-	background: linear-gradient(to bottom, #e4e2e1 0%, #996633 100%);
+	padding: 2rem;
+	background: linear-gradient(to bottom, #587191 0%, #2d2b9c 100%);
 	margin: auto;
 	max-width: 800px;
 	width: 90%;
 }
 
+
 .principal {
 	
 /* 	background: linear-gradient(to top, #dbad96 0%, #a9e6a9 100%);
 	border-top: 20px linear-gradient(to top, #33ffcc 0%, #ffca99 81%); */
-	color: #fff;
-	padding: 50px 0;
+	color: rgb(212, 226, 11);
+	padding: 2% 0;
+
 	width: 100%;
 }
 
@@ -54,7 +59,7 @@ body {
 .principal .formulario .boton {
 	background: none;
 	border: 1px solid #D32F2F;
-	color: #fff;
+	color: rgb(172, 202, 168);
 	display: inline-block;
 	font-size: 16px;
 	padding: 15px;
@@ -75,6 +80,7 @@ body {
 	
 	
 	border-bottom: 1px solid #B6B6B6;
+	
 }
 
 .tareas .lista li a {
