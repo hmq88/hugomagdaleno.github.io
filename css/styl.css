@@ -4,7 +4,7 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	
+	background: linear-gradient(to bottom, #f5cd7e44 0%, #9ed3a5 100%);
 }
 
 body {
@@ -16,7 +16,7 @@ body {
 
 .wrap {
 
-	background: linear-gradient(to bottom, #ffcc66 0%, #996633 100%);
+	background: linear-gradient(to bottom, #e4e2e1 0%, #996633 100%);
 	margin: auto;
 	max-width: 800px;
 	width: 90%;
@@ -24,8 +24,8 @@ body {
 
 .principal {
 	
-	background: linear-gradient(to top, #ff9933 0%, #006600 100%);
-	border-top: 20px linear-gradient(to top, #ff9933 0%, #ffca99 81%);
+/* 	background: linear-gradient(to top, #dbad96 0%, #a9e6a9 100%);
+	border-top: 20px linear-gradient(to top, #33ffcc 0%, #ffca99 81%); */
 	color: #fff;
 	padding: 50px 0;
 	width: 100%;
@@ -38,6 +38,8 @@ body {
 
 .principal .formulario input[type=text] {
 	margin-bottom: 20px;
+	background: #c4ebc4;
+	text-align: center;
 	padding: 10px;
 	width: 100%;
 }
@@ -45,7 +47,9 @@ body {
 .principal .formulario input[type=text].error {
 	border: 5px solid #D32F2F;
 	color: red;
+		
 }
+
 
 .principal .formulario .boton {
 	background: none;
@@ -63,7 +67,7 @@ body {
 /* - Tareas - */
 .tareas .lista {
 	
-	background: linear-gradient(to bottom, #ff9933 0%, #006600 100%);
+	background: linear-gradient(to bottom, #f5cd7e44 0%, #9ed3a5 100%);
 	list-style: none;
 }
 
@@ -74,7 +78,7 @@ body {
 }
 
 .tareas .lista li a {
-	background: linear-gradient(to bottom, #ff9933 0%, #006600 100%);
+	background: linear-gradient(to bottom, #f5cd7e44 0%, #9ed3a5 100%);
 	display: block;
 	padding: 20px 0;
 	text-decoration: none;
