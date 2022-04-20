@@ -11,6 +11,7 @@
 
 body {
 
+
 	padding: 10%;
 	font-family: arial, helvetica, sans-serif;
 	font-size: 16px;
@@ -18,8 +19,9 @@ body {
 }
 
 .wrap {
+	
 	padding: 2rem;
-	background: linear-gradient(to bottom, #587191 0%, #2d2b9c 100%);
+	background: linear-gradient(to bottom, #f5cd7e44 100%, #9ed3a5 0%);
 	margin: auto;
 	max-width: 800px;
 	width: 90%;
@@ -28,15 +30,16 @@ body {
 
 .principal {
 	
-/* 	background: linear-gradient(to top, #dbad96 0%, #a9e6a9 100%);
-	border-top: 20px linear-gradient(to top, #33ffcc 0%, #ffca99 81%); */
-	color: rgb(212, 226, 11);
+	background: linear-gradient(to bottom, #f5cd7e44 100%, #9ed3a5 0%);
+	border-top: 20px linear-gradient(to top, #33ffcc 0%, #ffca99 81%);
+	
 	padding: 2% 0;
 
 	width: 100%;
 }
 
 .principal .formulario {
+	
 	color: #212121;
 	text-align: center;
 }
@@ -57,9 +60,10 @@ body {
 
 
 .principal .formulario .boton {
-	background: none;
+	background: #9ed3a5;
 	border: 1px solid #D32F2F;
-	color: rgb(172, 202, 168);
+	color: black;
+	text-transform: capitalize;
 	display: inline-block;
 	font-size: 16px;
 	padding: 15px;
@@ -87,7 +91,7 @@ body {
 	background: linear-gradient(to bottom, #f5cd7e44 0%, #9ed3a5 100%);
 	display: block;
 	padding: 20px 0;
-	text-decoration: none;
+	text-transform: uppercase;
 }
 
 .tareas .lista li a:hover {
